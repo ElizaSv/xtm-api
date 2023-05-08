@@ -13,7 +13,7 @@ const dbLink = process.env.ATLAS_URI;
 
 app.use(cors({
     allowedHeaders: ['Content-Type', 'Authorization'],
-    origin: "https://xtm.onrender.com/", 
+    origin: "https://xtm.onrender.com", 
     methods: ["POST"]
 }));
 app.use(express.json());
